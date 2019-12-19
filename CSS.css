@@ -1,0 +1,25 @@
+html,
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+}
+#first {
+  margin: 0 auto;
+  margin-top: 16%;
+  width: 200px;
+  height: 200px;
+  background: cyan;
+  position: relative;
+}
+
+#first #second {
+  width: 50%;
+  height: 50%;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
